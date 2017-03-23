@@ -26,8 +26,8 @@ public class A4Q5 {
         int mark = input.nextInt();
         System.out.println("What mark did you get?: ");
         int given = input.nextInt();
-        
-      
+
+
         System.out.println("What was the first test out of?: ");
         int mark2 = input.nextInt();
         System.out.println("What mark did you get?: ");
@@ -47,18 +47,18 @@ public class A4Q5 {
         //test scores for "name"
         System.out.println("Test Scores for " + name);
         //calculate scores for each test
-        double score = (given*100.0 / mark);
-        System.out.println("Test 1: " + score +"%");
-        double score2 = (given2*100.0 / mark2);
-        System.out.println("Test 2: " + score2 +"%");
-        double score3 = (given3*100.0 / mark3);
-        System.out.println("Test 3: " + score3 +"%");
-        double score4 = (given4*100.0 / mark4);
-        System.out.println("Test 4: " + score4 +"%");
-        double score5 = (given5*100.0 / mark5);
-        System.out.println("Test 5: " + score5 +"%");
+        double score = (given * 100.0 / mark);
+        System.out.println("Test 1: " + score + "%");
+        double score2 = (given2 * 100.0 / mark2);
+        System.out.println("Test 2: " + score2 + "%");
+        double score3 = (given3 * 100.0 / mark3);
+        System.out.println("Test 3: " + score3 + "%");
+        double score4 = (given4 * 100.0 / mark4);
+        System.out.println("Test 4: " + score4 + "%");
+        double score5 = (given5 * 100.0 / mark5);
+        System.out.println("Test 5: " + score5 + "%");
         //Average of all the tests
-        double average = (score +score2 +score3 +score4 +score5)/5;
+        double average = (score + score2 + score3 + score4 + score5) / 5;
         System.out.println("Average: " + average + "%");
     }
 }
