@@ -27,14 +27,14 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jLabel2" min="-2" pref="92" max="-2" attributes="0"/>
+                      <Component id="DegreeC" min="-2" pref="92" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                       <Component id="CConvert" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="CtoF" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jLabel1" min="-2" pref="116" max="-2" attributes="0"/>
+                      <Component id="DegreeF" min="-2" pref="116" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       <Component id="FConvert" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -50,13 +50,13 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="DegreeF" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                   <Component id="FConvert" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
                   <Component id="FtoC" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" max="-2" attributes="0">
-                  <Component id="jLabel2" alignment="3" max="32767" attributes="0"/>
+                  <Component id="DegreeC" alignment="3" max="32767" attributes="0"/>
                   <Component id="CConvert" alignment="3" pref="43" max="32767" attributes="0"/>
                   <Component id="CtoF" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -66,7 +66,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="DegreeF">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="0"/>
@@ -74,7 +74,7 @@
         <Property name="text" type="java.lang.String" value="Degrees Fahrenheit"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="DegreeC">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="0"/>
